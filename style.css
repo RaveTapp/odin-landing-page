@@ -14,13 +14,13 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
-    padding: 16px 32px;
+    padding: 16px 96px;
 }
 
 .header .right-links {
     display: flex;
     gap: 32px;
-    padding: 16px 32px;
+    padding: 16px 96px;
 }
 
 a {
@@ -34,14 +34,16 @@ a {
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding: 40px 32px;
-    justify-content: center;
+    padding: 40px 96px;
+    justify-content: space-around;
     gap: 5%;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .hero .text {
@@ -55,10 +57,18 @@ a {
 
 .hero img {
     max-width: 800px;
-    
+    flex: 3;
 }
 
 .hero button {
     background-color: #3882f6;
     margin: 0 60px;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+
+}
+
+.hero p {
+    font-size: 18px;
 }
