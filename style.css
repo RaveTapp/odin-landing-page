@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/*HEADER*/
 .header {
     background-color: #1f2937;
     display: flex;
@@ -27,3 +28,5 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+
