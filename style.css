@@ -137,13 +137,35 @@ a {
 .sign-up {
     display: flex;
     margin: 128px 256px;
-    padding: 32px 96px;
+    padding: 64px 96px;
     background-color: #3882f6;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 12px;
+    align-items: center;
 }
 
 .sign-up div {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.sign-up h3 {
+    margin: 5px 0;
+}
+
+.sign-up p {
+    margin: 0;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    margin:  12px auto 0;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 12px;
+    padding: 4px;
+    width: 128px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
 }
